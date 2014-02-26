@@ -8,47 +8,47 @@ Web Design Handbook
 v 1.0 - By Kyreena Hay
 
 
-Contents
+###Contents
 
-	1.	Introduction					pg1
-	2.	General							pg1
-	3.	Client expectations				pg3
-	4.	Responsive Design				pg3
-	5.	Image Optimisation				pg4
-	6.	Accessibility					pg4
-	7.	Usability						pg4
-	8.	User Experience					pg6
-	9.	Technology						pg7
-	10.	Preparing the design for devs	pg8
-	11.	Some useful links				pg9
-	12.	Checklist						pg10
-
-
+1.	Introduction					pg1
+2.	General							pg1
+3.	Client expectations				pg3
+4.	Responsive Design				pg3
+5.	Image Optimisation				pg4
+6.	Accessibility					pg4
+7.	Usability						pg4
+8.	User Experience					pg6
+9.	Technology						pg7
+10.	Preparing the design for devs	pg8
+11.	Some useful links				pg9
+12.	Checklist						pg10
 
 
-	1.	 Introduction
-The purpose of this document is to act as an informal, comprehensive outline of the considerations at every stage of the web design process. I am hopeful that we can use and expand upon this as a reference point that can help us all build upon our existing knowledge so that we can all grow together - and of course build awesome web products for our clients!
 
-	2.	 General
-	1.	Progressive enhancement is an important web design principle where design is considered for the content first. In practical terms, we design for the most feature-restricted scenarios first, adding on additional layers for those devices and scenarios with wider support for better features. For example you might want a stickied navigation bar, but if your target audience largely uses devices that don’t support them, then you will need to forego a stickied navigation in favour of an approach with wider support.
 
-	2.	Graceful Degradation is another principle that is quite similar, but instead focuses on finding viable solutions for the more restrictive scenarios, rather than cutting something just because one technology can’t support it. A good example of use for this principle, is in considering mobile devices when creating hover effects. As mobile doesn’t have hover, an alternative needs to be found, that serves the same function as hover does for desktop e.g. if something is revealed on hover, simply display it by default for mobile.
+1. ###Introduction
+  The purpose of this document is to act as an informal, comprehensive outline of the considerations at every stage of the web design process. I am hopeful that we can use and expand upon this as a reference point that can help us all build upon our existing knowledge so that we can all grow together - and of course build awesome web products for our clients!
 
-	3.	It’s very important to use fonts that are optimised for web (web hinted), or you will have issues with font-rendering. Windows in particular renders fonts with little regard for curve precision, so many fonts are specifically optimised to prevent this issue and maintain legibility. You will also need to consider a fallback font-stack that is found on all computers eg. Arial, Times, etc, in case your custom font doesn’t load for whatever reason. 
+2. ###General
+  -	Progressive enhancement is an important web design principle where design is considered for the content first. In practical terms, we design for the most feature-restricted scenarios first, adding on additional layers for those devices and scenarios with wider support for better features. For example you might want a stickied navigation bar, but if your target audience largely uses devices that don’t support them, then you will need to forego a stickied navigation in favour of an approach with wider support.
 
-	4.	Further on type in web: where your audience is located will matter, so you will want to host your custom fonts in the same locale to reduce load delay. Note that licensing is also very important (so as not to open the company up to lawsuits) so ensure that typefaces used have an appropriate, DRM-free license attached (DRM is pretty terrible in NZ). 
+  -	Graceful Degradation is another principle that is quite similar, but instead focuses on finding viable solutions for the more restrictive scenarios, rather than cutting something just because one technology can’t support it. A good example of use for this principle, is in considering mobile devices when creating hover effects. As mobile doesn’t have hover, an alternative needs to be found, that serves the same function as hover does for desktop e.g. if something is revealed on hover, simply display it by default for mobile.
 
-	5.	If you have to plan the usability: draw wireframes. I recommend against doing them digitally, as you become attached to them in that more polished format, which reduces the effectiveness of wireframing - which is to explore the usability, flow, and functionality of the website iteratively.
+  -	It’s very important to use fonts that are optimised for web (web hinted), or you will have issues with font-rendering. Windows in particular renders fonts with little regard for curve precision, so many fonts are specifically optimised to prevent this issue and maintain legibility. You will also need to consider a fallback font-stack that is found on all computers eg. Arial, Times, etc, in case your custom font doesn’t load for whatever reason. 
 
-	6.	Once you’re happy with the use-flow of the website, the general layout of elements, and have sign-off from the client, you move on to the more detailed wireframes - or, mockups. These require content, and are again iteratively designed, through exploring many concepts.
+  -	Further on type in web: where your audience is located will matter, so you will want to host your custom fonts in the same locale to reduce load delay. Note that licensing is also very important (so as not to open the company up to lawsuits) so ensure that typefaces used have an appropriate, DRM-free license attached (DRM is pretty terrible in NZ). 
 
-	7.	Once a final mockup is chosen and signed off, you move on to the final design stage, which is where you flesh out the full responsive look, then sign-off before handing off all deliverables to the devs. Design absolutely needs to be finalised before it’s handed to devs, as design changes after this stage require very costly and time consuming code revisions.
+  -	If you have to plan the usability: draw wireframes. I recommend against doing them digitally, as you become attached to them in that more polished format, which reduces the effectiveness of wireframing - which is to explore the usability, flow, and functionality of the website iteratively.
 
-	8.	Max website size should be 990px, and a grid should be used. The best, easily divisible for responsive grid is 12 columns with 20px gutters, and 20px margins. In Photoshop, you can use the GuideGuide plugin to generate accurate grids - well, as accurate as is possible anyway; don’t be alarmed when one column isn’t quite as wide as the others, as this is the limitation of pixel rounding.
+  -	Once you’re happy with the use-flow of the website, the general layout of elements, and have sign-off from the client, you move on to the more detailed wireframes - or, mockups. These require content, and are again iteratively designed, through exploring many concepts.
 
-	9.	Resolution independence is important on the web, so utilise vector layers and high resolution smart objects where possible (In Photoshop). 
+  -	Once a final mockup is chosen and signed off, you move on to the final design stage, which is where you flesh out the full responsive look, then sign-off before handing off all deliverables to the devs. Design absolutely needs to be finalised before it’s handed to devs, as design changes after this stage require very costly and time consuming code revisions.
 
-	10.	Use layer comps for different page layouts (In Photoshop). This is good for a more efficient workflow, and is something that makes your file much easier for other designers and devs to read and use.
+  -	Max website size should be 990px, and a grid should be used. The best, easily divisible for responsive grid is 12 columns with 20px gutters, and 20px margins. In Photoshop, you can use the GuideGuide plugin to generate accurate grids - well, as accurate as is possible anyway; don’t be alarmed when one column isn’t quite as wide as the others, as this is the limitation of pixel rounding.
+
+  -	Resolution independence is important on the web, so utilise vector layers and high resolution smart objects where possible (In Photoshop). 
+
+	  -	Use layer comps for different page layouts (In Photoshop). This is good for a more efficient workflow, and is something that makes your file much easier for other designers and devs to read and use.
 
 	11.	Don’t design in Illustrator if you can help it. Fireworks and Photoshop are better - Photoshop being best, as Fireworks will be discontinued soon sadly. Even better, would be moving to Sketch, which is the new “Photoshop” for interface design. There are a number of reasons for this, from the pixel rendering in Ai being less accurate than PS, to PS being better equipped for website design, as well as more accessible for developers who may need to jump in and grab colour hex values, images etc. Though really, developers shouldn’t ever have to do any of that (see point 10).
 
