@@ -3,7 +3,7 @@ Designing for web
 
 An open source handbook on Designing for Web
 
-v 1.0 - By Kyreena Hay
+v 1.0 - By Kyreena Hay - Special thanks to Thomas bredin-Grey for proof-reading.
 
 
 ####Contents
