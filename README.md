@@ -24,10 +24,10 @@ v 1.0 - By Kyreena Hay
 
 
 
-1. ####Introduction
+####Introduction
   The purpose of this document is to act as an informal, comprehensive outline of the considerations at every stage of the web design process. I am hopeful that we can use and expand upon this as a reference point that can help us all build upon our existing knowledge so that we can all grow together - and of course build awesome web products for our clients!
 
-2. ####General
+####General
   1.	Progressive enhancement is an important web design principle where design is considered for the content first. In practical terms, we design for the most feature-restricted scenarios first, adding on additional layers for those devices and scenarios with wider support for better features. For example you might want a stickied navigation bar, but if your target audience largely uses devices that don’t support them, then you will need to forego a stickied navigation in favour of an approach with wider support.
 
   2.	Graceful Degradation is another principle that is quite similar, but instead focuses on finding viable solutions for the more restrictive scenarios, rather than cutting something just because one technology can’t support it. A good example of use for this principle, is in considering mobile devices when creating hover effects. As mobile doesn’t have hover, an alternative needs to be found, that serves the same function as hover does for desktop e.g. if something is revealed on hover, simply display it by default for mobile.
@@ -165,13 +165,13 @@ v 1.0 - By Kyreena Hay
 **A Web Design Checklist:
 
 
-	•	Fonts are web optimised.
-	•	Where your fonts are sourced from (and therefore hosted) has been considered.
-	•	Your working file is laid out with mobile, tablet, and web, lain side-by-side, with the appropriate dimensions.
-	•	Images in your file are imported at their largest possible size, turned into smart objects, then the smart object downsized according to your needs, so that they can ultimately be saved out at least 1.5x their viewed size.
-	•	A grid is being used.
-	•	Principles of Progressive Enhancement, and graceful degradation, are kept in mind. 
-	•	Technological limitations are kept in mind.
+- [ ] Fonts are web optimised.
+- [ ] Where your fonts are sourced from (and therefore hosted) has been considered.
+- [ ] Your working file is laid out with mobile, tablet, and web, lain side-by-side, with the appropriate dimensions.
+- [ ] Images in your file are imported at their largest possible size, turned into smart objects, then the smart object downsized according to your needs, so that they can ultimately be saved out at least 1.5x their viewed size.
+- [ ] A grid is being used.
+- [ ] Principles of Progressive Enhancement, and graceful degradation, are kept in mind. 
+- [ ] Technological limitations are kept in mind.
 	•	Accessibility has been considered.
 	•	The usability of icon choices and treatment have been considered.
 	•	All interactive elements have the necessary states, like:
