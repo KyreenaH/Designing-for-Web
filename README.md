@@ -10,25 +10,23 @@ v 1.0 - By Kyreena Hay
 
 Contents
 
-<ol> 
-	<li> Introduction </li>
-	<li>	General					</li>
-	<li>	Client expectations				</li>
-	<li>	Responsive Design				</li>
-	<li>	Image Optimisation				</li>
-	<li>	Accessibility					</li>
-	<li>	Usability					</li>
-	<li>	User Experience				</li>
-	<li>	Technology					</li>
-	<li>	Preparing the design for devs			</li>
-	<li>	Some useful links				</li>
-	<li>	Checklist					</li>
-</ol>
+	1.	Introduction					pg1
+	2.	General							pg1
+	3.	Client expectations				pg3
+	4.	Responsive Design				pg3
+	5.	Image Optimisation				pg4
+	6.	Accessibility					pg4
+	7.	Usability						pg4
+	8.	User Experience					pg6
+	9.	Technology						pg7
+	10.	Preparing the design for devs	pg8
+	11.	Some useful links				pg9
+	12.	Checklist						pg10
 
 
-<ol>
 
-	<li> <h3> 1.	 Introduction <h3> </li>
+
+	1.	 Introduction
 The purpose of this document is to act as an informal, comprehensive outline of the considerations at every stage of the web design process. I am hopeful that we can use and expand upon this as a reference point that can help us all build upon our existing knowledge so that we can all grow together - and of course build awesome web products for our clients!
 
 	2.	 General
