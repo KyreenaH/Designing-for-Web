@@ -60,7 +60,7 @@ v 1.0 - By Kyreena Hay
 
   16.	Consult with the developers frequently about whether something will be possible or not, or if they may know a better way of doing it. An open dialogue throughout the project is very important.
 
-3.	Client expectations
+####Client expectations
 	1.	As a web designer you have a responsibility not only to fulfill client requests, but to go above and beyond their expectations and produce a highly successful website for your client. Web results & effectiveness are directly measurable & no client will be satisfied if their website does not perform well. Thus, it is important to realise that clients aren’t trained in web design - they will not often know what will bring them the most success and often do not have their real best interests at heart. With this in mind, consider:
 
 	1.	The single biggest stakeholder in the success of any website is the Users, by a very large margin. If you can teach clients that sound usability practice will lead them to success, then they will trust you to execute this effectively. 
@@ -82,7 +82,7 @@ v 1.0 - By Kyreena Hay
 
 	2.	 Some companies - like government organisations - require a full stack, unique consideration for disabilities, so if the brief requires it, often times you have to design in such a way that people with disabilities can make changes to the website to toggle things according to their needs. See: government accessibility guidelines.
 
-7.	 Usability
+####Usability
   1.	It is important to remember that while you may think a layout makes sense to you, it might not for others (especially people of different cultures or where english isn’t the first language, eg right-to-left languages), which means they will become frustrated trying to find what they want. It’s best to observe common use patterns on similar websites and interfaces, and adhere to common layout patterns, after establishing the information hierarchy and designing for common use cases. This often means the creativity of the site suffers, as you must stick to very simple, common patterns, but it is what needs to be done. 
 
   2.	Affordance is when something has a visual cue that indicates how you interact with it. Like a door that has a handle should be pulled, not pushed. If you have to push that door, you become frustrated because the affordance indicator suggests to pull it, which you naturally attempt first. In UI, an example is a button that looks like a button - if it doesn’t look like a button, the user won’t know to click it.
@@ -99,7 +99,7 @@ v 1.0 - By Kyreena Hay
 
 	2.	You need to consider the use-case scenario for viewing a website on your mobile phone vs tablet vs desktop. The reading experience on mobile is less comfortable than it is on tablet or desktop, so you want to reduce scrolling and reading on mobile phones; I recommend a quick “back to top” solution for all devices.
 
-8.	 User Experience
+####User Experience
   1.	It’s good to consider animations and transitions for the website, as it creates an entertaining, unique, personable, and more real experience for the user. When something moves like it’s affected by external factors such as gravity, it makes an otherwise robotic interaction more real for users. Web technology has advanced a lot, and there are many, many possibilities these days. I recommend checking out Codrops for a plethora of lovely animations and transitions that most frontend devs can implement with ease. Many things can be animated, from drop-downs, to buttons, and interesting elements. Keep in mind that an alternative state to hover needs to be included (progressive enhancement again), for devices that do not have hover capabilities i.e. tablets.
 
   2.	All objects that a user interacts with in some way, like a button, link, drop-down, or form, needs a state for every stage of interaction: hover, active, focus (when you select a field in a form to fill out), and disabled. You will need to design each state, where needed. This is again where you keep affordance and use of animation in mind e.g. a button pushes down when you click it, a lot like a real life button.
@@ -112,7 +112,7 @@ v 1.0 - By Kyreena Hay
 
   6.	Web users are largely scanners first, readers second (they’ll scan to find what they want, and read more if they’re interested) - often they don’t progress on from scanning. Make sure you don’t lose your audience in a wall of text, and format text using principles of strong information hierarchy (ie: use strong headings, lists, and other highly scannable content formats to direct user attention rapidly through the page).
 
-9.	Technology
+####Technology
   1.	You will need to understand and consider the limitations of the technology that will be used. Here are a few examples:
 
   1.	Internet Explorer can’t do a lot of things that other browsers can, so you’ll need to weigh up how important it is that Internet Explorer users don’t miss out on designed features because the browser can’t make it look the way you designed. This depends on your user base, and how important it is that the feature looks like it does - maybe you could have an image fallback in the code, or maybe you will just forego that design. A good example is rounded corners; IE7 doesn’t support those, so we either decide to let IE7 suffer and have no rounded corners, completely forego rounded corners, or IE7 gets an image fall-back which isn’t very flexible code-wise.
@@ -127,7 +127,7 @@ v 1.0 - By Kyreena Hay
 
   6.	Touch devices have no hover, as well as different common UI patterns i.e. Android doesn’t traditionally use the “hamburger icon” or the subsequent drawer menu functionality, they instead use a drop-down menu aka a “pop-over”. The hamburger icon is currently under great debate, and your mobile menu design decision needs to be well considered for usability.
 
-10.	Preparing the design to be handed to Devs
+####Preparing the design to be handed to Devs
   1.	My first piece of advice for this chapter is: sit down and talk to your Devs about what you can do to make their job easier, and of course explain to them what would make your job easier. While the following guidelines are important, everyone has different backgrounds; I’ve met Devs that prefer being handed SVGs to .psds, and I’ve met Devs who have a great eye for detail so they need less educating than others on replicating my designs. Obviously, pixel perfection is impossible in web, but that doesn’t excuse a shoddy job from a Dev.
 
   2.	The majority of Backend Devs have little design training - which usually means they won’t have your same level of attention to detail. This can range from not seeing that you used a sans-serif font (not a serif!), to not understanding the importance of that 10px space between two elements and setting it to 20px instead. Your best bet is to simply assume the worst, and hand them all images and icons exactly as they should be on the site, give them a .txt file with all hex colour values and fonts used, and sending them screenshots with grids visible, so they see how things line up. Additionally, give them the raw .psd file so they can get exact measurements of things.
@@ -140,7 +140,7 @@ v 1.0 - By Kyreena Hay
 
   6.	An optimum scenario that we don’t always get time for, is to give devs “functional specs”, which is a matrix table of every interactive object on the site, and what its hover, active, and focus states are, what happens when you interact with them etc. 
 
-11.	Some useful links
+####Some useful links
   1.	Smashing Magazine: http://www.smashingmagazine.com/ (If you’re going to read any of these, Smashing Mag is the one; it is the best.)
   2.	Responsive Resources (most comprehensive list on the web): http://bradfrost.github.io/this-is-responsive/resources.html 
   3.	A List Apart: http://alistapart.com/
@@ -162,7 +162,7 @@ v 1.0 - By Kyreena Hay
 *Many of these are self-indulgent and don’t have much regard for end-users; it’s always good to find out how feasible things are - every website has a different user base and tech consideration, so what works for one, may not work for another.
 
 
-**A Web Design Checklist:
+##A Web Design Checklist:
 
 
 [] Fonts are web optimised.
