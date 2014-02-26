@@ -165,7 +165,7 @@ v 1.0 - By Kyreena Hay
 **A Web Design Checklist:
 
 
-- [ ] Fonts are web optimised.
+-[] Fonts are web optimised.
 - [ ] Where your fonts are sourced from (and therefore hosted) has been considered.
 - [ ] Your working file is laid out with mobile, tablet, and web, lain side-by-side, with the appropriate dimensions.
 - [ ] Images in your file are imported at their largest possible size, turned into smart objects, then the smart object downsized according to your needs, so that they can ultimately be saved out at least 1.5x their viewed size.
