@@ -6,6 +6,9 @@ An open source handbook on Designing for Web
 v 1.0 - By Kyreena Hay. Special thanks to Thomas Bredin-Grey for proof-reading.
 
 
+![Image of web design tools](http://kyreenahay.com/imgs/intro-kyreena.png)
+
+
 ####Contents
 
 1.	Introduction					
