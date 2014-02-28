@@ -5,7 +5,7 @@
 Designing for web
 =================
 
-An open source handbook on Designing for Web
+###An open source handbook 
 
 v 1.0 - By Kyreena Hay. Special thanks to Thomas Bredin-Grey for proof-reading.
 
@@ -40,13 +40,15 @@ v 1.0 - By Kyreena Hay. Special thanks to Thomas Bredin-Grey for proof-reading.
 
   4.	Further on type in web: where your audience is located will matter, so you will want to host your custom fonts in the same locale to reduce load delay. Note that licensing is also very important (so as not to open the company up to lawsuits) so ensure that typefaces used have an appropriate, DRM-free license attached (DRM is pretty terrible in NZ). 
 
-  5.	If you have to plan the usability: draw wireframes. I recommend against doing them digitally, as you become attached to them in that more polished format, which reduces the effectiveness of wireframing - which is to explore the usability, flow, and functionality of the website iteratively.
+  5.	If you have to plan the usability: draw wireframes. I recommend against doing them digitally, as you become attached to them in that more polished format, which reduces the effectiveness of wireframing - which is to explore the usability, flow, and functionality of the website iteratively. Post-it notes arranged on a board, with lines drawn between each page is a great way to visualise large sites that can't all fit on paper. From there you can see what can be simplified. I like to apply a common rule of fashion, to interface design; before you head out, look in the mirror, and remove one item - or in UI terms; before you sign-off, look at it as a whole, and see what can be removed. 
 
-  6.	Once you’re happy with the use-flow of the website, the general layout of elements, and have sign-off from the client, you move on to the more detailed wireframes - or, mockups. These require content, and are again iteratively designed, through exploring many concepts.
+  6.	Once you’re happy with the use-flow of the website, the general layout of elements, and have sign-off from the client, you move on to the more detailed wireframes - or, mockups. These require content, and are again iteratively designed, through exploring many concepts. Here you can also do some prototyping, which will help. InVision is a great, basic, application for this sort of thing.
 
   7.	Once a final mockup is chosen and signed off, you move on to the final design stage, which is where you flesh out the full responsive look, then sign-off before handing off all deliverables to the devs. Design absolutely needs to be finalised before it’s handed to devs, as design changes after this stage require very costly and time consuming code revisions.
 
-  8.	Max website size should be 990px, and a grid should be used. The best, easily divisible for responsive grid is 12 columns with 20px gutters, and 20px margins. In Photoshop, you can use the GuideGuide plugin to generate accurate grids - well, as accurate as is possible anyway; don’t be alarmed when one column isn’t quite as wide as the others, as this is the limitation of pixel rounding.
+  8.	Maximum website size should be 990px; even if you design for responsive, and simply allow the design to fill the screen, you should do so with caution. The further a user has to move their cursor - or "reach" - the more uncomfortable the usability becomes.
+
+  9. Always use a grid. The best, easily divisible for responsive grid is 12 columns with 20px gutters, and 20px margins. In Photoshop, you can use the GuideGuide plugin to generate accurate grids - well, as accurate as is possible anyway; don’t be alarmed when one column isn’t quite as wide as the others, as this is the limitation of pixel rounding.
 
   9.	Resolution independence is important on the web, so utilise vector layers and high resolution smart objects where possible (In Photoshop). 
 
@@ -56,11 +58,11 @@ v 1.0 - By Kyreena Hay. Special thanks to Thomas Bredin-Grey for proof-reading.
 
   12.	Never forget the importance of the content “above the fold”; this is where users first land, and your main priority for getting the user to stay on the page/ website. Get them interested, let them know that this is where they want to be by appealing to their needs - this is generally considered to mean providing them with information on the site, so they know they’re in the right place for what they’re after.
 
-  13.	Be consistent in your design. Don’t have many different sized buttons and navs. This is where smart objects really come in handy, as you can duplicate them and have changes saved across every duplicate, for consistency.
+  13.	Be consistent in your design. Don’t have many different sized buttons and other elements. This is where smart objects really come in handy, as you can duplicate them and have changes saved across every duplicate, for consistency.
 
-  14.	I highly recommend trying to “break” your design, by adding in more content than you designed for, then fixing the result. You need to make sure the design is flexible, particularly because the text will inevitably be translated to a different language, which WILL break it. Another aspect of this, is not using lorem ipsum, but instead using similar content thrown in with some language context. For example, if I’m designing a user name display for a user profile, I’ll try names from different cultures, like Liu Mark, Sanchan Prajeet, Bjork Rykasdottar.
+  14.	I highly recommend trying to “break” your design, by adding in more content than you designed for, then fixing the result. You need to make sure the design is flexible, particularly because the text will inevitably be translated to a different language, which WILL break it. Another aspect of this, is not using lorem ipsum, but instead using similar content thrown in with some language context. For example, if I’m designing a user name display for a user profile, I’ll try names from different cultures, like Liu Sam, Sanchan Prajeet, Bjork Rykasdottar, as well as hyphenated names, like Sarah-Jane Innott-Lester.
 
-  15.	On the note of cultures and names: if you need a user to provide their name, a single field is best, due to the many different name treatments across cultures e.g. the Chinese traditionally place their last name first.
+  15.	On the note of cultures and names: if you need a user to provide their name, a single field is best, due to the many different name treatments across cultures e.g. the Chinese traditionally place their last name first, which makes "first name" and "last name" unhelpful.
 
   16.	Consult with the developers frequently about whether something will be possible or not, or if they may know a better way of doing it. An open dialogue throughout the project is very important.
 
@@ -74,28 +76,28 @@ v 1.0 - By Kyreena Hay. Special thanks to Thomas Bredin-Grey for proof-reading.
 ####Responsive Design
 1.	Responsive design is a progressive enhancement concept. In practical terms - the mobile design will lack features that the tablet and desktop have, as the use case and technological requirements are different. Mobile may even gain functionality or elements to make up for the loss of larger elements; it’s all a part of the usability considerations important for responsive web design.
 
-2.	Designing how the site looks on mobile and tablet is imperative, and in some cases it may be necessary to include desktop view as well, though desktop and tablet are often very similar. Some good approximations: Mobile width when designing is 480px (600-800px for ‘above the fold’), tablet width is 768px, and desktop is 990px+. Try not to focus too much on devices as our websites need to be future-proofed against any possible new device than may emerge in a rapidly, ever diversifying market.
+2.	Designing how the site looks on mobile and tablet is imperative, and in some cases it may be necessary to include desktop view as well, though desktop and tablet are often very similar. Some good approximations: Mobile width when designing is 480px (600-800px for ‘above the fold’), tablet width is 768px, and desktop is 990px+. Try not to focus too much on devices as our websites need to be future-proofed against any possible new device that may emerge in a rapidly, ever diversifying market.
 
 ####Image optimisation
 1.	Compression for web (72dpi, consideration of formats, and ratio of compression to image quality), and ensuring the image size is exactly the size it will display at in web. Images should be saved exactly at the size required for the website.
 
-2.	Consideration for progressive enhancement, balanced with the needs of retina screens, and the current limitations that CMS’s have for serving up images. It’s important to keep an eye on the technology, because as soon as a solution for CMS image display is found, we should use it. Right now, the best solution I have is saving images at 1.5x size (retina requires 2x, but 1.5x is a good compromise). But, when there is no CMS involved, you will need to save out a different sized image for each break-point.
+2.	Again consider progressive enhancement - but balanced with the needs of retina screens, and the current limitations that CMS’s have for serving up images. Right now, the best solution is to save images at 1.5x size (retina requires 2x, but 1.5x is a good compromise), as CMS's can only serve up one version of an image. But, when there is no CMS involved, you will need to save out a different sized image for each break-point, which is the best way to do treat images for responsive web.
 
 ####Accessibility
 1.	Consideration for disabilities, by default, is important. Color blindness, and complete blindness are especially common. For design, this means design that has high contrast (i.e. black text on white is high contrast design, while light grey text on white is low contrast and bad), body text preferably 12pt+, usability that is so simple your grandmother could use it, and copy that isn’t excessive and is laid out in an easily scannable manner. For blind users your user flow must be accessible to screen-readers.
 
-2.	 Some companies - like government organisations - require a full stack, unique consideration for disabilities, so if the brief requires it, often times you have to design in such a way that people with disabilities can make changes to the website to toggle things according to their needs. See: government accessibility guidelines.
+2.	 Some companies - like government organisations - require a full stack, unique consideration for disabilities, so if the brief requires it, often times you have to design in such a way that people with disabilities can make changes to the website by toggling the design according to their needs. See: government accessibility guidelines.
 
 ####Usability
- 1.	It is important to remember that while you may think a layout makes sense to you, it might not for others (especially people of different cultures or where english isn’t the first language, eg right-to-left languages), which means they will become frustrated trying to find what they want. It’s best to observe common use patterns on similar websites and interfaces, and adhere to common layout patterns, after establishing the information hierarchy and designing for common use cases. This often means the creativity of the site suffers, as you must stick to very simple, common patterns, but it is what needs to be done. 
+ 1.	It is important to remember that while you may think a layout makes sense to you, it might not for others (especially people of different cultures or where english isn’t the first language, eg right-to-left languages), which means they will become frustrated trying to find what they want. Besides doing thorough User Research and testing; it’s good to observe common use patterns on similar websites and interfaces, and adhere to common layout patterns, after establishing the information hierarchy and designing for common use cases. This can end up resistricting your creative freedom, but is best for the project. 
 
- 2.	Affordance is when something has a visual cue that indicates how you interact with it. Like a door that has a handle should be pulled, not pushed. If you have to push that door, you become frustrated because the affordance indicator suggests to pull it, which you naturally attempt first. In UI, an example is a button that looks like a button - if it doesn’t look like a button, the user won’t know to click it.
+ 2.	Affordance is when something has a visual cue that indicates how you interact with it. Like a door that has a handle should be pulled, not pushed. If you have to push that door, you become frustrated because the affordance indicator suggests to pull it, which you naturally attempt first. In UI, an example is a button that looks like a button - if it doesn’t look like a button, the user won’t know to click it, so keep affordance in mind.
 
  3.	As few clicks as possible - Very important. This is a particularly good rule of thumb when thinking about navigation layers. I try really hard to not have more than one layer of navigation, and find other ways to have sub-navigation to prevent too much clicking. More than one layer of navigation requires breadcrumbs. Avoid more than 2 layers at all costs - this usually indicates something has gone wrong at the wireframing stage and represents an overcomplicated user flow.
 
- 4.	For websites that have generated content and pages, the devs will tell you they need a 404 error page design. 404 is what you get when an error occurred locating the page they wanted, so that one needs clear instructions for finding the page, or going elsewhere on the site. Github has the best example of a 404 page done right.
+ 4.	For websites that have generated content and pages, the devs will tell you they need a 404 error page design. 404 is what you get when an error occurred locating a page, so it needs clear instructions to help the user find what they were looking for, or just go elsewhere on the site. Github has the best example of a 404 page done right.
 
- 5.	Icons are a complex issue and need to be treated with delicacy. It’s best to accompany an icon with text, as there are very few that all users easily recognise; we’re still largely in the “training” phase of making all users familiar with iconography on the web, and it doesn’t help that we’re not all using the same icons for the same functions either. The Hamburger icon is a good example of an icon being abused without consideration for the user, and it’s looking like there’s now a movement away from just assuming you can use it to represent a “menu” (does Joe Blogg user even know what a “menu” is, in the context of web? We’re assuming too much with this interface element). In reference to what was said before about “designing for your grandmother”; my grandmother would not make use of that icon (there was a study on it actually).
+ 5.	Icons are a complex issue and need to be treated with delicacy. It’s best to accompany an icon with text, as there are very few that all users easily recognise; and it doesn’t help that we’re not all using the same icons for the same functions either. The Hamburger icon is a good example of an icon being abused without consideration for the user, and it’s looking like there’s now a movement away from just assuming you can use it to represent a “menu” (does Joe Blogg user even know what a “menu” is, in the context of web? We’re assuming too much with this interface element). In reference to what was said before about “designing for your grandmother”; my grandmother would not make use of that icon, according to a study conducted recently.
 
  6.	Mobile has a lot of considerations as well:
 
@@ -104,7 +106,7 @@ v 1.0 - By Kyreena Hay. Special thanks to Thomas Bredin-Grey for proof-reading.
   2.	You need to consider the use-case scenario for viewing a website on your mobile phone vs tablet vs desktop. The reading experience on mobile is less comfortable than it is on tablet or desktop, so you want to reduce scrolling and reading on mobile phones; I recommend a quick “back to top” solution for all devices.
 
 ####User Experience
- 1.	It’s good to consider animations and transitions for the website, as it creates an entertaining, unique, personable, and more real experience for the user. When something moves like it’s affected by external factors such as gravity, it makes an otherwise robotic interaction more real for users. Web technology has advanced a lot, and there are many, many possibilities these days. I recommend checking out Codrops for a plethora of lovely animations and transitions that most frontend devs can implement with ease. Many things can be animated, from drop-downs, to buttons, and interesting elements. Keep in mind that an alternative state to hover needs to be included (progressive enhancement again), for devices that do not have hover capabilities i.e. tablets.
+ 1.	It’s good to consider animations and transitions for the website, as it creates an entertaining, unique, personable, and more real experience for the user. When something moves like it’s affected by external factors such as gravity, it makes an otherwise robotic interaction more real for users. Web technology has advanced a lot, and there are many, many possibilities these days. I recommend checking out Codrops for a plethora of lovely animations and transitions that most frontend devs can implement with ease. Many things can be animated, from drop-downs, to buttons, and interesting elements. Keep in mind that an alternative state to hover needs to be included (progressive enhancement again), for devices that do not have hover capabilities i.e. tablets. Additionally, animations and transitional effects can slow down the website, so use them wisely.
 
  2.	All objects that a user interacts with in some way, like a button, link, drop-down, or form, needs a state for every stage of interaction: hover, active, focus (when you select a field in a form to fill out), and disabled. You will need to design each state, where needed. This is again where you keep affordance and use of animation in mind e.g. a button pushes down when you click it, a lot like a real life button.
 
@@ -132,9 +134,9 @@ You will need to understand and consider the limitations of the technology that 
 6.	Touch devices have no hover, as well as different common UI patterns i.e. Android doesn’t traditionally use the “hamburger icon” or the subsequent drawer menu functionality, they instead use a drop-down menu aka a “pop-over”. The hamburger icon is currently under great debate, and your mobile menu design decision needs to be well considered for usability.
 
 ####Preparing the design to be handed to Devs
-1.	My first piece of advice for this chapter is: sit down and talk to your Devs about what you can do to make their job easier, and of course explain to them what would make your job easier. While the following guidelines are important, everyone has different backgrounds; I’ve met Devs that prefer being handed SVGs to .psds, and I’ve met Devs who have a great eye for detail so they need less educating than others on replicating my designs. Obviously, pixel perfection is impossible in web, but that doesn’t excuse a shoddy job from a Dev.
+My first piece of advice for this chapter is: sit down and talk to your Devs about what you can do to make their job easier, and of course explain to them what would make your job easier. While the following guidelines are important, everyone has different backgrounds; I’ve met Devs that prefer being handed SVGs to .psds, and I’ve met Devs who have a great eye for detail so they need less educating than others on replicating my designs. Obviously, pixel perfection is impossible in web, but that doesn’t excuse a shoddy job from a Dev.
 
-2.	The majority of Backend Devs have little design training - which usually means they won’t have your same level of attention to detail. This can range from not seeing that you used a sans-serif font (not a serif!), to not understanding the importance of that 10px space between two elements and setting it to 20px instead. Your best bet is to simply assume the worst, and hand them all images and icons exactly as they should be on the site, give them a .txt file with all hex colour values and fonts used, and sending them screenshots with grids visible, so they see how things line up. Additionally, give them the raw .psd file so they can get exact measurements of things.
+2.	The majority of Backend Devs have little design training - which usually means they won’t have your same level of attention to detail. This can range from not seeing that you used a sans-serif font (not a serif!), to not understanding the importance of that 10px space between two elements and setting it to 20px instead. Your best bet is to simply assume the worst, and hand them all of the images and icons exactly as they should be on the site, give them a .txt file with all hex colour values and fonts used, and send them screenshots with grids visible, so they see how things line up. Additionally, give them the raw .psd file so they can get exact measurements of things.
 
 3.	Name files according to the BEM (Block, Object, Modifier) convention for easy and transferable storage and use. For example, an arrow icon that points right, will be called “icon_arrow_right.png” (“block_object_modifier.format”). All icons will start with “icon”, and all arrow variants will be suffixed with a descriptor. This means like objects can be grouped alphabetically by name in the file system, and makes it easier to find, and reference them.
 
@@ -176,9 +178,13 @@ You will need to understand and consider the limitations of the technology that 
 - Images in your file are imported at their largest possible size, turned into smart objects, then the smart object downsized according to your needs, so that they can ultimately be saved out at least 1.5x their viewed size.
 - A grid is being used.
 - Principles of Progressive Enhancement, and graceful degradation, are kept in mind. 
+- Your design has a consistent use of sizes, colours, elements, etc.
 - Technological limitations are kept in mind.
+- If designing a site that will use a CMS; your design contains "modular" components.
+- Your design won't break if more text than was planned for, is used.
 - Accessibility has been considered.
 - The usability of icon choices and treatment have been considered.
+- Transitional effects have been considered. 
 - All interactive elements have the necessary states, like:
   - hover
   - active
@@ -192,6 +198,6 @@ You will need to understand and consider the limitations of the technology that 
   - 404 page that makes sense and can easily direct you to where you want to be.
   - Success feedback
   - Processing/ loading feedback
-- All images have been optimised for web, and labelled so that images that fall within the same category are group together through naming convention.
+- All images have been optimised for web, and labelled so that images that fall within the same category are grouped together through naming convention.
 - You’ve made it easy for devs to be able to obtain hex values and sizes, either by handing over a raw file, or a document outlining all colour values and sizes.
  
