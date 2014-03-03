@@ -40,31 +40,34 @@ v 1.0 - By Kyreena Hay. Special thanks to Thomas Bredin-Grey for proof-reading.
 
   4.	Further on type in web: where your audience is located will matter, so you will want to host your custom fonts in the same locale to reduce load delay. Note that licensing is also very important (so as not to open the company up to lawsuits) so ensure that typefaces used have an appropriate, DRM-free license attached (DRM is pretty terrible in NZ). 
 
-  5.	If you have to plan the usability: draw wireframes. I recommend against doing them digitally, as you become attached to them in that more polished format, which reduces the effectiveness of wireframing - which is to explore the usability, flow, and functionality of the website iteratively. Post-it notes arranged on a board, with lines drawn between each page is a great way to visualise large sites that can't all fit on paper. From there you can see what can be simplified. I like to apply a common rule of fashion, to interface design; before you head out, look in the mirror, and remove one item - or in UI terms; before you sign-off, look at it as a whole, and see what can be removed. 
+  5. Any text in the design should not be an image, unless it is a decorative/ illustrative device. Otherwise, text should be inputted in the CMS, or coding process. There are many reasons for this; chief being for SEO, and accessibility (screen readers can't read images).
 
-  6.	Once you’re happy with the use-flow of the website, the general layout of elements, and have sign-off from the client, you move on to the more detailed wireframes - or, mockups. These require content, and are again iteratively designed, through exploring many concepts. Here you can also do some prototyping, which will help. InVision is a great, basic, application for this sort of thing.
+  6.	If you have to plan the usability: draw wireframes. I recommend against doing them digitally, as you become attached to them in that more polished format, which reduces the effectiveness of wireframing - which is to explore the usability, flow, and functionality of the website iteratively. Post-it notes arranged on a board, with lines drawn between each page is a great way to visualise large sites that can't all fit on paper. From there you can see what can be simplified. I like to apply a common rule of fashion, to interface design; before you head out, look in the mirror, and remove one item - or in UI terms; before you sign-off, look at it as a whole, and see what can be removed. 
 
-  7.	Once a final mockup is chosen and signed off, you move on to the final design stage, which is where you flesh out the full responsive look, then sign-off before handing off all deliverables to the devs. Design absolutely needs to be finalised before it’s handed to devs, as design changes after this stage require very costly and time consuming code revisions.
+  7.	Once you’re happy with the use-flow of the website, the general layout of elements, and have sign-off from the client, you move on to the more detailed wireframes - or, mockups. These require content, and are again iteratively designed, through exploring many concepts. Here you can also do some prototyping, which will help. InVision is a great, basic, application for this sort of thing.
 
-  8.	Maximum website size should be 990px; even if you design for responsive, and simply allow the design to fill the screen, you should do so with caution. The further a user has to move their cursor - or "reach" - the more uncomfortable the usability becomes.
+  8.	Once a final mockup is chosen and signed off, you move on to the final design stage, which is where you flesh out the full responsive look, then sign-off before handing off all deliverables to the devs. Design absolutely needs to be finalised before it’s handed to devs, as design changes after this stage require very costly and time consuming code revisions.
 
-  9. Always use a grid. The best, easily divisible for responsive grid is 12 columns with 20px gutters, and 20px margins. In Photoshop, you can use the GuideGuide plugin to generate accurate grids - well, as accurate as is possible anyway; don’t be alarmed when one column isn’t quite as wide as the others, as this is the limitation of pixel rounding.
+  9.	Maximum website size should be 990px; even if you design for responsive, and simply allow the design to fill the screen, you should do so with caution. The further a user has to move their cursor - or "reach" - the more uncomfortable the usability becomes.
 
-  9.	Resolution independence is important on the web, so utilise vector layers and high resolution smart objects where possible (In Photoshop). 
+  10. Always use a grid. The best, easily divisible for responsive grid is 12 columns with 20px gutters, and 20px margins. In Photoshop, you can use the GuideGuide plugin to generate accurate grids - well, as accurate as is possible anyway; don’t be alarmed when one column isn’t quite as wide as the others, as this is the limitation of pixel rounding.
 
-  10.	Use layer comps for different page layouts (In Photoshop). This is good for a more efficient workflow, and is something that makes your file much easier for other designers and devs to read and use.
+  11.	Resolution independence is important on the web, so utilise vector layers and high resolution smart objects where possible (In Photoshop). 
 
-  11.	Don’t design in Illustrator if you can help it. Fireworks and Photoshop are better - Photoshop being best, as Fireworks will be discontinued soon sadly. Even better, would be moving to Sketch, which is the new “Photoshop” for interface design. There are a number of reasons for this, from the pixel rendering in Ai being less accurate than PS, to PS being better equipped for website design, as well as more accessible for developers who may need to jump in and grab colour hex values, images etc. Though really, developers shouldn’t ever have to do any of that (see point 10).
+  12.	Use layer comps for different page layouts (In Photoshop). This is good for a more efficient workflow, and is something that makes your file much easier for other designers and devs to read and use.
 
-  12.	Never forget the importance of the content “above the fold”; this is where users first land, and your main priority for getting the user to stay on the page/ website. Get them interested, let them know that this is where they want to be by appealing to their needs - this is generally considered to mean providing them with information on the site, so they know they’re in the right place for what they’re after.
+  13.	Don’t design in Illustrator if you can help it. Fireworks and Photoshop are better - Photoshop being best, as Fireworks will be discontinued soon sadly. Even better, would be moving to Sketch, which is the new “Photoshop” for interface design. There are a number of reasons for this, from the pixel rendering in Ai being less accurate than PS, to PS being better equipped for website design, as well as more accessible for developers who may need to jump in and grab colour hex values, images etc. Though really, developers shouldn’t ever have to do any of that (see point 10).
 
-  13.	Be consistent in your design. Don’t have many different sized buttons and other elements. This is where smart objects really come in handy, as you can duplicate them and have changes saved across every duplicate, for consistency.
+  14.	Never forget the importance of the content “above the fold”; this is where users first land, and your main priority for getting the user to stay on the page/ website. Get them interested, let them know that this is where they want to be by appealing to their needs - this is generally considered to mean providing them with information on the site, so they know they’re in the right place for what they’re after.
 
-  14.	I highly recommend trying to “break” your design, by adding in more content than you designed for, then fixing the result. You need to make sure the design is flexible, particularly because the text will inevitably be translated to a different language, which WILL break it. Another aspect of this, is not using lorem ipsum, but instead using similar content thrown in with some language context. For example, if I’m designing a user name display for a user profile, I’ll try names from different cultures, like Liu Sam, Sanchan Prajeet, Bjork Rykasdottar, as well as hyphenated names, like Sarah-Jane Innott-Lester.
+  15.	Be consistent in your design. Don’t have many different sized buttons and other elements. This is where smart objects really come in handy, as you can duplicate them and have changes saved across every duplicate, for consistency.
 
-  15.	On the note of cultures and names: if you need a user to provide their name, a single field is best, due to the many different name treatments across cultures e.g. the Chinese traditionally place their last name first, which makes "first name" and "last name" unhelpful.
+  16.	I highly recommend trying to “break” your design, by adding in more content than you designed for, then fixing the result. You need to make sure the design is flexible, particularly because the text will inevitably be translated to a different language, which WILL break it. Another aspect of this, is not using lorem ipsum, but instead using similar content thrown in with some language context. For example, if I’m designing a user name display for a user profile, I’ll try names from different cultures, like Liu Sam, Sanchan Prajeet, Bjork Rykasdottar, as well as hyphenated names, like Sarah-Jane Innott-Lester.
 
-  16.	Consult with the developers frequently about whether something will be possible or not, or if they may know a better way of doing it. An open dialogue throughout the project is very important.
+  17.	On the note of cultures and names: if you need a user to provide their name, a single field is best, due to the many different name treatments across cultures e.g. the Chinese traditionally place their last name first, which makes "first name" and "last name" unhelpful.
+
+  18.	Consult with the developers frequently about whether something will be possible or not, or if they may know a better way of doing it. An open dialogue throughout the project is very important.
+
 
 ####Client expectations
 1.	As a web designer you have a responsibility not only to fulfill client requests, but to go above and beyond their expectations and produce a highly successful website for your client. Web results & effectiveness are directly measurable & no client will be satisfied if their website does not perform well. Thus, it is important to realise that clients aren’t trained in web design - they will not often know what will bring them the most success and often do not have their real best interests at heart. With this in mind, consider:
@@ -133,6 +136,8 @@ You will need to understand and consider the limitations of the technology that 
 
 6.	Touch devices have no hover, as well as different common UI patterns i.e. Android doesn’t traditionally use the “hamburger icon” or the subsequent drawer menu functionality, they instead use a drop-down menu aka a “pop-over”. The hamburger icon is currently under great debate, and your mobile menu design decision needs to be well considered for usability.
 
+ 7. When designing for emails, keep in mind that email technology is very far behind browser technology. To avoid headaches, it's recommended you style the email design as little as possible; the most successful email design is one with nothing but standard text, and a company logo. Anything more will mean an increase in time spent trying to ensure it looks good across all email clients, so embellish with care.
+
 ####Preparing the design to be handed to Devs
 My first piece of advice for this chapter is: sit down and talk to your Devs about what you can do to make their job easier, and of course explain to them what would make your job easier. While the following guidelines are important, everyone has different backgrounds; I’ve met Devs that prefer being handed SVGs to .psds, and I’ve met Devs who have a great eye for detail so they need less educating than others on replicating my designs. Obviously, pixel perfection is impossible in web, but that doesn’t excuse a shoddy job from a Dev.
 
@@ -170,7 +175,6 @@ My first piece of advice for this chapter is: sit down and talk to your Devs abo
 
 ##A Web Design Checklist:
 
-
 - Fonts are web optimised.
 - The font license suits our needs.
 - Where your fonts are sourced from (and therefore hosted) has been considered.
@@ -179,7 +183,9 @@ My first piece of advice for this chapter is: sit down and talk to your Devs abo
 - A grid is being used.
 - Principles of Progressive Enhancement, and graceful degradation, are kept in mind. 
 - Your design has a consistent use of sizes, colours, elements, etc.
+- There are no images that are text, unless they are purely decorative elements.
 - Technological limitations are kept in mind.
+- Emails are as uncomplicated as possible.
 - If designing a site that will use a CMS; your design contains "modular" components.
 - Your design won't break if more text than was planned for, is used.
 - Accessibility has been considered.
