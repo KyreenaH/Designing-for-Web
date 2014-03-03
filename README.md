@@ -199,7 +199,7 @@ My first piece of advice for this chapter is: sit down and talk to your Devs abo
 - Alternate states are considered eg:
   - No content
   - Search returned nothing
-  - All necessary user feedback has been designed:
+- All necessary user feedback has been designed:
   - Error messages 
   - 404 page that makes sense and can easily direct you to where you want to be.
   - Success feedback
