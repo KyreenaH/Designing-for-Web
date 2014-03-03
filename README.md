@@ -196,7 +196,7 @@ My first piece of advice for this chapter is: sit down and talk to your Devs abo
   - active
   - focus
   - disabled
- Alternate states are considered eg:
+ - Alternate states are considered eg:
   - No content
   - Search returned nothing
   - All necessary user feedback has been designed:
