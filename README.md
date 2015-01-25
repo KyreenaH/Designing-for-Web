@@ -1,5 +1,5 @@
 
-![Image of web design tools](http://kyreenahay.com/imgs/intro-kyreena.png)
+![Image of web design tools](http://kyreenahay.com/imgs/intro-kyreena.svg)
 
 
 Designing for web
