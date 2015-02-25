@@ -68,7 +68,7 @@ v 1.0 - By Kyreena Hay. Special thanks to Thomas Bredin-Grey for proof-reading.
 
 
 ####Client expectations
-1.	As a web designer you have a responsibility not only to fulfill client requests, but to go above and beyond their expectations and produce a highly successful website for your client. Web results & effectiveness are directly measurable & no client will be satisfied if their website does not perform well. Thus, it is important to realise that clients aren’t trained in web design - they will not often know what will bring them the most success and often do not have their real best interests at heart. With this in mind, consider:
+1.	As a web designer you have a responsibility not only to fulfill client requests, but to go above and beyond their expectations and produce a highly successful website for your client. It is important to realise that clients aren’t trained in web design - they will not often know what will bring them the most success and often do not have their real best interests at heart. Web results & effectiveness are directly measurable & no client will be satisfied if their website does not perform well. With this in mind, consider:
 
   1.	The single biggest stakeholder in the success of any website is the Users, by a very large margin. If you can teach clients that sound usability practice will lead them to success, then they will trust you to execute this effectively. 
 
