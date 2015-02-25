@@ -38,7 +38,7 @@ v 1.0 - By Kyreena Hay. Special thanks to Thomas Bredin-Grey for proof-reading.
 
   3.	It’s very important to use fonts that are optimised for web (web hinted), or you will have issues with font-rendering. Windows in particular renders fonts with little regard for curve precision, so many fonts are specifically optimised to prevent this issue and maintain legibility. You will also need to consider a fallback font-stack that is found on all computers eg. Arial, Times, etc, in case your custom font doesn’t load for whatever reason. 
 
-  4.	Further on type in web: where your audience is located will matter, so you will want to host your custom fonts in the same locale to reduce load delay. Note that licensing is also very important (so as not to open the company up to lawsuits) so ensure that typefaces used have an appropriate, DRM-free license attached (DRM is pretty terrible in NZ). 
+  4.	Further on type in web: where your audience is located will matter, so you will want to host your custom fonts in the same locale to reduce load delay. Note that licensing is also very important (so as not to open the company up to lawsuits) so ensure that typefaces used have an appropriate, DRM-free license attached (For instance, New Zealanders will struggle to find fonts that they can legally use). 
 
   5. Any text in the design should not be an image, unless it is a decorative/ illustrative device. Otherwise, text should be inputted in the CMS, or coding process. There are many reasons for this; chief being for SEO, and accessibility (screen readers can't read images).
 
@@ -64,9 +64,7 @@ v 1.0 - By Kyreena Hay. Special thanks to Thomas Bredin-Grey for proof-reading.
 
   16.	I highly recommend trying to “break” your design, by adding in more content than you designed for, then fixing the result. You need to make sure the design is flexible, particularly because the text will inevitably be translated to a different language, which WILL break it. Another aspect of this, is not using lorem ipsum, but instead using similar content thrown in with some language context. For example, if I’m designing a user name display for a user profile, I’ll try names from different cultures, like Liu Sam, Sanchan Prajeet, Bjork Rykasdottar, as well as hyphenated names, like Sarah-Jane Innott-Lester.
 
-  17.	On the note of cultures and names: if you need a user to provide their name, a single field is best, due to the many different name treatments across cultures e.g. the Chinese traditionally place their last name first, which makes "first name" and "last name" unhelpful.
-
-  18.	Consult with the developers frequently about whether something will be possible or not, or if they may know a better way of doing it. An open dialogue throughout the project is very important.
+  17.	Consult with the developers frequently about whether something will be possible or not, or if they may know a better way of doing it. An open dialogue throughout the project is very important.
 
 
 ####Client expectations
